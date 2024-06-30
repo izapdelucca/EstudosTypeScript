@@ -1,0 +1,18 @@
+em tsconfig.json (
+    criado com "tsc --init"
+    para rodar as alterações no tsconfig, use "tsc" no console)
+
+ >"target": "es2016" - diz para qual versão do javascript o arquivo vai ser compilado
+ >"rootDir": "./src" - diz para qual pasta o arquivo .ts é pra estar
+ >"outDir": "./dist" - diz para qual pasta o arquivo compilado (js) vai ir
+ >"module": "ESNext" - define o tipo de import/export a ser usado
+ >"checkJs": true - verifica os erros nos arquivos js
+ >"removeComments": true - ao compilar o código, se estiver true o código vai compilar sem comentarios
+
+ outras anotações:
+
+ >na pasta src fica todo o código de desenvolvimento (onde o index.ts fica)
+ >na pasta dist, é onde fica o código compilado javascript
+ >"tsc {nome do arquivo}" compila o código para js
+
+ 
